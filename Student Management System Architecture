@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="wO8gC1wFTMJwGTZnuySG">
-    <mxGraphModel dx="794" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,11 @@
         <mxCell id="kF1AzFahrbASZazw7CUN-2" value="&lt;div&gt;Flask Controller&lt;/div&gt;&lt;div&gt;- Handles routing (e.g., /login)&lt;/div&gt;&lt;div&gt;- Validates user input&lt;/div&gt;&lt;div&gt;- Role-based access control&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="-370" width="210" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-46" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kF1AzFahrbASZazw7CUN-14" target="kF1AzFahrbASZazw7CUN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="-355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kF1AzFahrbASZazw7CUN-14" value="&lt;div&gt;Model Layer&lt;/div&gt;&lt;div&gt;- SQLite database operations&lt;/div&gt;&lt;div&gt;- Load and save student data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="85" y="-220" width="130" height="170" as="geometry" />
         </mxCell>
@@ -44,6 +49,11 @@
         </mxCell>
         <mxCell id="kF1AzFahrbASZazw7CUN-26" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack.svg;" vertex="1" parent="1">
           <mxGeometry x="650" y="-405" width="93.72" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-48" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kF1AzFahrbASZazw7CUN-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="-420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kF1AzFahrbASZazw7CUN-31" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
           <mxGeometry x="530" y="-175" width="80" height="80" as="geometry" />
