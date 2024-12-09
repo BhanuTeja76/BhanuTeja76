@@ -1,9 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="wO8gC1wFTMJwGTZnuySG">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kF1AzFahrbASZazw7CUN-34" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kF1AzFahrbASZazw7CUN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-1" value="&lt;div&gt;&lt;br&gt;&lt;br&gt;Client-Side (Browser)&lt;/div&gt;&lt;div&gt;- HTML / CSS / JS&lt;/div&gt;&lt;div&gt;- Chart.js for dashboards&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-510" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-36" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="kF1AzFahrbASZazw7CUN-2" target="kF1AzFahrbASZazw7CUN-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-2" value="&lt;div&gt;Flask Controller&lt;/div&gt;&lt;div&gt;- Handles routing (e.g., /login)&lt;/div&gt;&lt;div&gt;- Validates user input&lt;/div&gt;&lt;div&gt;- Role-based access control&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-370" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-14" value="&lt;div&gt;Model Layer&lt;/div&gt;&lt;div&gt;- SQLite database operations&lt;/div&gt;&lt;div&gt;- Load and save student data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="-220" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-38" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.334;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kF1AzFahrbASZazw7CUN-25" target="kF1AzFahrbASZazw7CUN-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="-455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-25" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/users/browser.svg;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-485" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-44" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kF1AzFahrbASZazw7CUN-26" target="kF1AzFahrbASZazw7CUN-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="-130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="697" y="-135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-26" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-405" width="93.72" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kF1AzFahrbASZazw7CUN-31" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="530" y="-175" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
